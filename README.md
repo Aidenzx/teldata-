@@ -14,7 +14,7 @@ node teldata.js <numero_de_telefono>
 Ejemplo
 
 bash
-node teldata.js 1234567890 US
+node teldata.js +15534567
 
 
 ## Requisitos

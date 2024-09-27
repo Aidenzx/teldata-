@@ -13,7 +13,6 @@ node teldata.js <numero_de_telefono>
 
 Ejemplo
 
-bash
 node teldata.js +15534567
 
 

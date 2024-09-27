@@ -8,7 +8,7 @@ Teldata es una herramienta para validar información de números de teléfono ut
 Ejecuta el script con el siguiente comando:
 
 
-node teldata.js <numero_de_telefono> [código_de_país]
+node teldata.js <numero_de_telefono>
 
 
 Ejemplo

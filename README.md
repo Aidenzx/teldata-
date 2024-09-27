@@ -1,7 +1,7 @@
 
 # Teldata
 
-Teldata es una herramienta para validar información de números de teléfono utilizando la API de numverify.
+Teldata es una herramienta para validar información de números de teléfono.
 
 ## Uso
 

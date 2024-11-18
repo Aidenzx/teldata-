@@ -78,21 +78,15 @@ const askPhoneNumber = () => {
                     console.log(`Tipo: ${data.line_type}`);
                     console.log(`Operador: ${data.carrier}`);
                     console.log(`Ubicación: ${data.location}`);
+                    rl.close();
                 } else {
                     console.log(messages[lang].notFound);
+                    askPhoneNumber();
                 }
             })
             .catch(error => {
-                if (error.response) {
-                    console.error('Error en la respuesta de la API:', error.response.data);
-                } else if (error.request) {
-                    console.error('No se recibió respuesta de la API:', error.request);
-                } else {
-                    console.error('Error al realizar la solicitud:', error.message);
-                }
-            })
-            .finally(() => {
-                rl.close();
+                console.error('Error al realizar la solicitud:', error.message);
+                askPhoneNumber();
             });
     });
 };

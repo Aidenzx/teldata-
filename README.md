@@ -1,23 +1,22 @@
-
 # Teldata
 
-Teldata es una herramienta para validar información de números de teléfono.
+Teldata is a tool for validating phone number information.
 
-## Uso
+## Usage
 
-Ejecuta el script con el siguiente comando:
+Run the script with the following command:
 
+```
+node teldata.js <phone_number>
+```
 
-node teldata.js <numero_de_telefono>
+Example:
 
-
-Ejemplo
-
+```
 node teldata.js +15534567
+```
 
-
-## Requisitos
+## Requirements
 
 - Node.js
-- Axios (instalado con `npm install axios`)
-
+- Axios (installed with `npm install axios`)

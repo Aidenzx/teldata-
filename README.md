@@ -12,7 +12,7 @@ Teldata is a tool for validating phone number information.
 
 2. Access the directory:
    ```bash
-   cd teldata-
+   cd teldata
    ```
 
 

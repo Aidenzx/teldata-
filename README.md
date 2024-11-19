@@ -7,7 +7,7 @@ Teldata is a tool for validating phone number information.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Aidenzx/teldata-.git
+   git clone https://github.com/Aidenzx/teldata.git
    ```
 
 2. Access the directory:

@@ -14,6 +14,13 @@ Teldata is a tool for validating phone number information.
    ```bash
    cd teldata
    ```
+   
+3. Install the dependencies:
+   ```bash
+   npm install axios
+   ```
+
+
 
 
 ## Usage
@@ -27,4 +34,4 @@ node teldata.js
 ## Requirements
 
 - Node.js
-- Axios (installed with `npm install axios`)
+  
